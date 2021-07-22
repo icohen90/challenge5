@@ -9,7 +9,7 @@ textarea{
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
+  color: #ffffff;
   border-left: 1px solid black;
   padding: 10px;
 }
@@ -40,7 +40,7 @@ textarea{
 .hour {
   background-color: #002760;
   color: #FF8500;
-  border-top: 2px dashed #ffffff;
+  text-align: center;
 }
 
 .past {
