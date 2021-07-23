@@ -1,6 +1,6 @@
 # Work Day Scheduler Starter Code
 
-<h2>URL:<h2> <a href="https://icohen90.github.io/challenge5/"> URL of Website</a>
+#<h2>URL:<h2> <a href="https://icohen90.github.io/challenge5/"> URL of Website</a>
 
   <h2>Description:</h2><br> 
 The site is essentially a daily calendar that starts from 9:00 in the morning until 5:00 in the afternoon. There is a textarea box to type in whatever you need to do during
