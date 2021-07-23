@@ -20,18 +20,12 @@ $(document).ready(function(){
             console.log(rowTime);
             
             if (rowTime < time) {
-                $(this).removeClass("future");
-                $(this).removeClass("present");
                 $(this).addClass("past");
             }
             else if (rowTime === time) {
-                $(this).removeClass("past");
-                $(this).removeClass("future");
                 $(this).addClass("present");
             }
             else {
-                $(this).removeClass("present");
-                $(this).removeClass("past");
                 $(this).addClass("future");
 
             }
@@ -42,11 +36,11 @@ $(document).ready(function(){
     $("#h10 .description").val(localStorage.getItem("h10"));
     $("#h11 .description").val(localStorage.getItem("h11"));
     $("#h12 .description").val(localStorage.getItem("h12"));
-    $("#h1 .description").val(localStorage.getItem("h1"));
-    $("#h2 .description").val(localStorage.getItem("h2"));
-    $("#h3 .description").val(localStorage.getItem("h3"));
-    $("#h4 .description").val(localStorage.getItem("h4"));
-    $("#h5 .description").val(localStorage.getItem("h5"));
+    $("#h13 .description").val(localStorage.getItem("h13"));
+    $("#h14 .description").val(localStorage.getItem("h14"));
+    $("#h15 .description").val(localStorage.getItem("h15"));
+    $("#h16 .description").val(localStorage.getItem("h16"));
+    $("#h17 .description").val(localStorage.getItem("h17"));
 
     trackCurrentTime();
 })
