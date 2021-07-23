@@ -29,7 +29,6 @@ textarea{
 .time-block{
   text-align: center;
   border-radius: 15px;
-  text-align: center;
 }
 
 .row {
@@ -49,17 +48,17 @@ textarea{
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: #FF8500;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #ec1a0f;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #23a823;
   color: white;
 }
 

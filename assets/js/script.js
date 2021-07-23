@@ -11,6 +11,32 @@ $(document).ready(function(){
         localStorage.setItem(time, text);
     })
 
+    function trackCurrentTime() {
+        var time = moment().hour();
+        console.log(time);
+        
+        $(".time-block").each(function(){
+            var rowTime = parseInt($(this).attr("id").split("h")[1]);
+            console.log(rowTime);
+            
+            if (rowTime < time) {
+                $(this).removeClass("future");
+                $(this).removeClass("present");
+                $(this).addClass("past");
+            }
+            else if (rowTime === time) {
+                $(this).removeClass("past");
+                $(this).removeClass("future");
+                $(this).addClass("present");
+            }
+            else {
+                $(this).removeClass("present");
+                $(this).removeClass("past");
+                $(this).addClass("future");
+
+            }
+        })
+    }
 
     $("#h9 .description").val(localStorage.getItem("h9"));
     $("#h10 .description").val(localStorage.getItem("h10"));
@@ -22,9 +48,7 @@ $(document).ready(function(){
     $("#h4 .description").val(localStorage.getItem("h4"));
     $("#h5 .description").val(localStorage.getItem("h5"));
 
-
-
-
+    trackCurrentTime();
 })
 
 
