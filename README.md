@@ -1,4 +1,4 @@
-# Work Day Scheduler Starter Code
+<h1 align="center">Work Day Scheduler</h1>
 
 <h2>URL:</h2><a href="https://icohen90.github.io/challenge5/"> URL of Website</a>
 
